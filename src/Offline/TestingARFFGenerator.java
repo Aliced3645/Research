@@ -18,6 +18,8 @@ public class TestingARFFGenerator {
 	
 	static final int ROWS = 1000;
 	static final String FILE_NAME = "MyRelation";
+	static final String SAMPLE_FILE_NAME = "MyRelation_sample";
+	
 	
 	public static void main(String[] args) throws Exception {
 		// 1. set up attributes
@@ -36,11 +38,13 @@ public class TestingARFFGenerator {
 	    	 data.add(new DenseInstance(1.0, vals));
 	     }
 	     
+	     //System.out.println(data.get(1).value(0));
 	     //persistence
 	     BufferedWriter writer = 
 	    		 new BufferedWriter(new FileWriter(FILE_NAME));
 	     writer.write(data.toString());
 	     writer.flush();
 	     writer.close();
+	     
 	}
 }
