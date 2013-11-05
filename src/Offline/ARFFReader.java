@@ -14,7 +14,6 @@ public class ARFFReader {
 		Instances data = new Instances(reader);
 		reader.close();
 		data.setClassIndex(data.numAttributes() - 1);
-		System.out.println(data);
 		return data;
 	}
 	

@@ -1,0 +1,8 @@
+@relation Metadata
+
+@attribute table string
+@attribute columns string
+
+@data
+MyRelation,'num1,num2'
+test,tester

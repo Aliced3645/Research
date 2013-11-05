@@ -18,6 +18,7 @@ public class ModelDescriptor {
 	public Function function;
 	
 	public ModelDescriptor(){
+		
 	}
 	
 	public ModelDescriptor(String missingAttribute,
