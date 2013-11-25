@@ -12,6 +12,14 @@ public class QueryElement {
 	String tableName;
 	ArrayList<String> columns;
 	
+	
+	class Inner {
+		
+		public void donothing(){
+			QueryElement.this.tableName = "s";
+		}
+		
+	}
 	public QueryElement(String tableName, ArrayList<String> columns){
 		this.tableName = tableName;
 		this.columns = columns;
