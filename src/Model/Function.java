@@ -7,4 +7,5 @@ public interface Function {
 	//of the impact of other rows.
 	int deduceValue(int[] inputValues);
 	
+	
 }
