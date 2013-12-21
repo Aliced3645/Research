@@ -9,7 +9,7 @@
 # version: $Revision: 5836 $
 
 # JDBC driver (comma-separated list)
-jdbcDriver=org.gjt.mm.mysql.Driver,
+jdbcDriver=org.gjt.mm.mysql.Driver
 
 # database URL
 jdbcURL=jdbc:mysql://localhost/testdb?user=shu&password=shu

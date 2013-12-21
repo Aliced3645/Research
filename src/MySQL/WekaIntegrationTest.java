@@ -1,7 +1,6 @@
 package MySQL;
 
 import weka.core.Instances;
-import weka.experiment.DatabaseUtils;
 import weka.experiment.InstanceQuery;
 
 /**
